@@ -10,7 +10,7 @@ const HeroBanner = () => {
   const slides = [
     {
       image: '/hero-bg.png',
-      profileImage: '/Prestigious-Manpower.png', // Add profile image path
+      profileImage: '/Prestigious-Manpower.png', 
       title: 'Industrial',
       description: 'Skilled industrial workers for manufacturing, factories, and production units with technical expertise.',
       features: [
@@ -21,8 +21,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/hero-bg-2.png',
-      profileImage: '/profile-2.jpg',
+      image: '/illustration-construction-site.jpg',
+      profileImage: '/construction.avif',
       title: 'Construction',
       description: 'Experienced construction workers including masons, carpenters, electricians, and site supervisors.',
       features: [
@@ -33,8 +33,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/hero-bg-3.png',
-      profileImage: '/profile-3.jpg',
+      image: '/frontline1.png',
+      profileImage: '/secuirty.avif',
       title: 'Security',
       description: 'Trained security personnel for residential, commercial, and industrial premises with PSARA certification.',
       features: [
@@ -45,8 +45,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/hero-bg-4.png',
-      profileImage: '/profile-4.jpg',
+      image: '/doctor-checking.jpg',
+      profileImage: '/medical.avif',
       title: 'Hospitality',
       description: 'Professional hospitality staff for hotels, restaurants, and events with grooming and service training.',
       features: [
@@ -57,8 +57,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/hero-bg-5.png',
-      profileImage: '/profile-5.jpg',
+      image: '/group-analysts.avif',
+      profileImage: '/employees.avif',
       title: 'IT & Office',
       description: 'Skilled IT professionals and office staff for administrative, technical, and support roles.',
       features: [
@@ -67,31 +67,31 @@ const HeroBanner = () => {
         "Customer support staff",
         "Office assistants"
       ]
-    },
-    {
-      image: '/hero-bg-6.png',
-      profileImage: '/profile-6.jpg',
-      title: 'Logistics',
-      description: 'Efficient logistics and supply chain workforce for warehouses, transportation, and inventory management.',
-      features: [
-        "Warehouse supervisors",
-        "Forklift operators",
-        "Delivery drivers",
-        "Inventory managers"
-      ]
-    },
-    {
-      image: '/hero-bg-7.png', 
-      profileImage: '/profile-7.jpg',
-      title: 'Healthcare',
-      description: 'Qualified healthcare professionals for hospitals, clinics, and home care services with medical expertise.',
-      features: [
-        "Registered nurses",
-        "Caregivers & attendants",
-        "Lab technicians",
-        "Reception & admin staff"
-      ]
     }
+    // {
+    //   image: '/hero-bg-6.png',
+    //   profileImage: '/profile-6.jpg',
+    //   title: 'Logistics',
+    //   description: 'Efficient logistics and supply chain workforce for warehouses, transportation, and inventory management.',
+    //   features: [
+    //     "Warehouse supervisors",
+    //     "Forklift operators",
+    //     "Delivery drivers",
+    //     "Inventory managers"
+    //   ]
+    // },
+    // {
+    //   image: '/hero-bg-7.png', 
+    //   profileImage: '/profile-7.jpg',
+    //   title: 'Healthcare',
+    //   description: 'Qualified healthcare professionals for hospitals, clinics, and home care services with medical expertise.',
+    //   features: [
+    //     "Registered nurses",
+    //     "Caregivers & attendants",
+    //     "Lab technicians",
+    //     "Reception & admin staff"
+    //   ]
+    // }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -116,12 +116,12 @@ const HeroBanner = () => {
   ];
   const colorPalette = [
   { name: 'blue', value: '#0d489d', hue: 215 },
-  { name: 'purple', value: '#7b1fa2', hue: 270 },
-  { name: 'magenta', value: '#c2185b', hue: 330 },
-  { name: 'red', value: '#d32f2f', hue: 0 },
   { name: 'orange', value: '#f57c00', hue: 30 },
-  { name: 'amber', value: '#ffa000', hue: 45 },
-  { name: 'yellow', value: '#fbc02d', hue: 60 }
+  { name: 'purple', value: '#00cb05', hue: 270 },
+  { name: 'red', value: '#d32f2f', hue: 0 },
+  { name: 'magenta', value: '#c2185b', hue: 330 },
+  // { name: 'amber', value: '#ffa000', hue: 45 },
+  // { name: 'yellow', value: '#fbc02d', hue: 60 }
 ];
 
 useEffect(() => {
@@ -133,7 +133,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden" style={{paddingTop:'80px'}}>
       {/* BG Image with overlay - changes with fade */}
       <div 
         key={currentIndex}

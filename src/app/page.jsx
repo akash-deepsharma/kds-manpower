@@ -35,28 +35,23 @@ export default async function HomePage() {
       {/* ══════════════════════════════════════════════
           HERO SECTION
       ══════════════════════════════════════════════ */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
-        {/* BG Image with overlay */}
+      {/* <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-500 "
           style={{ backgroundImage: "url('/hero-bg.png')" }} />
         <div className="absolute inset-0 bg-gradient-to-r from-[#020d1f]/95 via-[#06111e]/85 to-[#06111e]/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#06111e] via-transparent to-transparent" />
 
-        {/* Grid pattern */}
         <div className="absolute inset-0 opacity-[0.04]" style={{
           backgroundImage: "linear-gradient(rgba(21,101,192,1) 1px, transparent 1px), linear-gradient(90deg, rgba(21,101,192,1) 1px, transparent 1px)",
           backgroundSize: "60px 60px"
         }} />
 
-        {/* Glow orb */}
         <div className="absolute top-20 right-20 w-[600px] h-[600px] bg-[#1565c0]/10 rounded-full blur-[120px] pointer-events-none" />
 
         <div className="container mx-auto px-6 max-w-7xl relative z-10 pt-5 mt-5 pb-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center ">
 
-            {/* Left — Main Content */}
             <div className="lg:col-span-7 space-y-7 " data-aos="fade-right">
-              {/* Trust badge */}
               <div className="inline-flex items-center gap-2 bg-[#1565c0]/15 border border-[#1565c0]/30 backdrop-blur-sm rounded-full px-5 py-2 mb-3">
                 <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse shadow-[0_0_6px_rgba(74,222,128,0.8)]" />
                 <span className="text-[10px] font-black text-white/90 uppercase tracking-[0.25em]">
@@ -74,7 +69,6 @@ export default async function HomePage() {
                 KDS International Pvt. Ltd. provides skilled, semi-skilled, unskilled, contract, industrial, and labour manpower services across all industries in Delhi NCR — with full compliance and zero hassle.
               </p>
 
-              {/* Key features */}
               <div className="grid grid-cols-2 gap-3 max-w-xl">
                 {[
                   "Workers deployed within 24-48 hrs",
@@ -89,7 +83,6 @@ export default async function HomePage() {
                 ))}
               </div>
 
-              {/* CTAs */}
               <div className="flex flex-wrap gap-4 pt-3">
                 <Button href="/contact" size="lg"
                   className="bg-gradient-to-r from-[#0d47a1] to-[#1565c0] text-white hover:from-[#1565c0] hover:to-[#1976d2] border-none shadow-2xl shadow-[#1565c0]/30 font-black uppercase tracking-wider px-3 py-3"> 
@@ -102,7 +95,6 @@ export default async function HomePage() {
                 </a>
               </div>
 
-              {/* Stats row */}
               <div className=" mt-4 flex flex-wrap gap-8 pt-4 border-t border-white/10">
                 {data.stats.map((stat) => (
                   <div key={stat.id}>
@@ -113,11 +105,9 @@ export default async function HomePage() {
               </div>
             </div>
 
-            {/* Right — Contact card */}
-            {/* <div className="lg:col-span-5 animate-fade-in-up" style={{ animationDelay: "0.2s" }}> */}
             <div className="lg:col-span-5" data-aos="fade-left" data-aos-delay="200">
               <div className=" bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl overflow-hidden shadow-2xl shadow-[#1565c0]/10">
-                {/* Top accent */}
+                
                 <div className="h-1 w-full bg-gradient-to-r from-[#0d47a1] via-[#1565c0] to-[#1976d2] rounded-full mb-8 mt-0" />
 
                 <div className="p-4">
@@ -156,7 +146,7 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white dark:from-[#06111e] to-transparent" />
-      </section>
+      </section> */}
 
 
 
