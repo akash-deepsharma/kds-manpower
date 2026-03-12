@@ -112,6 +112,7 @@
 
 
 
+import { Suspense } from 'react'
 
 import { Tag, Info, ArrowRight } from "lucide-react";
 import { getServerData } from "@/lib/data";
@@ -141,6 +142,8 @@ export default async function BlogListingPage({ searchParams }) {
   const otherServices = services?.filter(s => s.id !== 'current-service-id') || [];
 
   return (
+    <Suspense>
+
     <main className="overflow-hidden bg-white transition-colors duration-500">
       {/* ─── HERO SECTION ──────────────────────────────────────────────── */}
       <section className="relative mt-5 pt-5 pb-5 hero-bg overflow-hidden text-center">
@@ -280,5 +283,6 @@ export default async function BlogListingPage({ searchParams }) {
         </div>
       </section>
     </main>
+    </Suspense>
   );
 }
