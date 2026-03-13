@@ -96,7 +96,7 @@ const HeroBanner = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [colorIndex, setColorIndex] = useState(0);
-  const time = '2000';
+  const time = '4000';
   // Auto-change slide every 2 seconds
   useEffect(() => {
     const interval = setInterval(() => {
