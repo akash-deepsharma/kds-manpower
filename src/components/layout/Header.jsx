@@ -186,7 +186,7 @@ export default function Header({ services, siteName }) {
                 >
                   <button
                     className={clsx(
-                      "flex items-center gap-2 px-2 py-2 rounded-lg text-[11px] font-bold uppercase tracking-[0.12em] transition-all duration-300",
+                      "flex items-center gap-2 px-2 py-2 rounded-lg !text-[14px] whitespace-nowrap !lg:text-[10px] !xl:text-[14px] font-bold uppercase tracking-[0.12em] transition-all duration-300",
                       pathname.startsWith("/industries")
                         ? "text-[#1565c0] dark:text-[#90caf9] bg-[#1565c0]/10"
                         : isTransparent
@@ -207,7 +207,7 @@ export default function Header({ services, siteName }) {
                   {/* Mega Menu */}
                   <div
                     className={clsx(
-                      "absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[800px] bg-white dark:bg-[#0d1117] border border-gray-100 dark:border-[#1565c0]/20 rounded-2xl shadow-2xl shadow-[#1565c0]/10 overflow-hidden transition-all duration-300 origin-top",
+                      "absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[1200px] mx-auto bg-white dark:bg-[#0d1117] border border-gray-100 dark:border-[#1565c0]/20 rounded-2xl shadow-2xl shadow-[#1565c0]/10 overflow-hidden transition-all duration-300 origin-top",
                       megaMenuOpen
                         ? "opacity-100 scale-100 translate-y-0"
                         : "opacity-0 scale-95 -translate-y-3 pointer-events-none",
@@ -231,7 +231,7 @@ export default function Header({ services, siteName }) {
                         </p>
                       </div>
                       
-                      <div className="grid grid-cols-2 gap-6">
+                      <div className="grid grid-cols-4 gap-6">
                         {industriesData.map((category, idx) => (
                           <div key={idx} className="space-y-3">
                             <h3 className=" font-black text-gray-800 dark:text-white uppercase tracking-wider border-b border-gray-100 dark:border-white/10 pb-2" style={{fontSize:'18px'}}>
@@ -274,7 +274,7 @@ export default function Header({ services, siteName }) {
                 >
                   <button
                     className={clsx(
-                      "flex items-center gap-2 px-4 py-2 rounded-lg text-[11px] font-bold uppercase tracking-[0.12em] transition-all duration-300",
+                      "flex items-center gap-2 px-xxl-4 px-xl-3 px-lg-2 px-4 py-2 rounded-lg !text-[14px] whitespace-nowrap !lg:text-[10px] !xl:text-[15px] font-bold uppercase tracking-[0.12em] transition-all duration-300",
                       pathname.startsWith("/services")
                         ? "text-[#1565c0] dark:text-[#90caf9] bg-[#1565c0]/10"
                         : isTransparent
@@ -335,7 +335,7 @@ export default function Header({ services, siteName }) {
                   key={link.href}
                   href={link.href}
                   className={clsx(
-                    "px-4 py-2 rounded-lg text-[15px] font-bold tracking-[0.12em] transition-all duration-300",
+                    "px-xxl-4 px-xl-3 px-lg-2 px-4 py-2 rounded-lg text-[15px] whitespace-nowrap lg:text-[10px] xl:text-[14px] font-bold tracking-[0.12em] transition-all duration-300",
                     pathname === link.href
                       ? "text-[#1565c0] dark:text-[#90caf9] bg-[#1565c0]/10"
                       : isTransparent
@@ -443,8 +443,8 @@ export default function Header({ services, siteName }) {
                   </p>
                   <div className="space-y-4 pl-2">
                     {industriesData.map((category, idx) => (
-                      <div key={idx} className="space-y-2">
-                        <h3 className="text-lg font-black text-[#1565c0] dark:text-[#90caf9] uppercase tracking-wider">
+                      <div key={idx} className="space-y-2 my-3">
+                        <h3 className="text-lg font-black text-[#1565c0] !text-[13px] dark:text-[#90caf9] uppercase tracking-wider">
                           {category.category}
                         </h3>
                         <div className="grid grid-cols-1 gap-1">
@@ -452,7 +452,7 @@ export default function Header({ services, siteName }) {
                             <Link
                               key={industry.slug}
                               href={`/industries/${industry.slug}`}
-                              className="text-base font-semibold text-gray-500 dark:text-white/50 hover:text-[#1565c0] dark:hover:text-[#90caf9] transition-colors py-1.5 flex items-center gap-2"
+                              className="text-base font-semibold text-gray-500 dark:text-white/50 hover:text-[#1565c0] dark:hover:text-[#90caf9] transition-colors py-1 flex items-center gap-2 text-[13px]"
                             >
                               <span className="w-1.5 h-1.5 rounded-full bg-[#1565c0]/40 shrink-0" />
                               {industry.name}

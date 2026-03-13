@@ -19,13 +19,14 @@ const nextConfig = {
             },
         ];
     },
-    images: {
+     images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'i.ibb.co',
+        hostname: 'www.kdsinternational.org',
         port: '',
-        pathname: '/**',
+        pathname: '/wp-content/uploads/**', // ** ka matlab hai saare folders/files
+        search: '', // Koi specific search param nahi
       },
     ],
   },

@@ -1572,5 +1572,447 @@
     "department": "Education",
     "type": "Educational Institution"
   }
+],
+ "careerData" : [
+  {
+    "sno": 1,
+    "title": "Senior Project Manager",
+    "department": "Project Management",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "10+ years",
+    "qualification": "B.Tech/BE + MBA",
+    "description": "Lead large-scale government infrastructure projects from initiation to completion",
+    "responsibilities": [
+      "Manage multiple government projects simultaneously",
+      "Coordinate with various government departments",
+      "Ensure timely delivery within budget constraints",
+      "Lead project teams and conduct regular reviews"
+    ],
+    "requirements": [
+      "10+ years of experience in project management",
+      "Experience with government/PSU projects preferred",
+      "PMP certification is a plus",
+      "Excellent communication and leadership skills"
+    ]
+  },
+  {
+    "sno": 2,
+    "title": "Site Engineer - Civil",
+    "department": "Civil Engineering",
+    "location": "MAHARASHTRA",
+    "type": "Full-time",
+    "experience": "3-5 years",
+    "qualification": "B.Tech/BE in Civil Engineering",
+    "description": "Oversee on-site construction activities for government building projects",
+    "responsibilities": [
+      "Supervise daily construction activities",
+      "Ensure quality control and safety standards",
+      "Coordinate with contractors and vendors",
+      "Maintain project documentation and reports"
+    ],
+    "requirements": [
+      "3-5 years of site experience",
+      "Knowledge of construction methods and materials",
+      "AutoCAD proficiency",
+      "Strong problem-solving skills"
+    ]
+  },
+  {
+    "sno": 3,
+    "title": "Electrical Engineer",
+    "department": "Electrical Engineering",
+    "location": "GUJARAT",
+    "type": "Full-time",
+    "experience": "4-6 years",
+    "qualification": "B.Tech/BE in Electrical Engineering",
+    "description": "Handle electrical systems design and implementation for government facilities",
+    "responsibilities": [
+      "Design electrical systems for buildings",
+      "Supervise electrical installations",
+      "Conduct site inspections and testing",
+      "Ensure compliance with safety standards"
+    ],
+    "requirements": [
+      "4-6 years of electrical engineering experience",
+      "Experience with government projects preferred",
+      "Knowledge of electrical codes and standards",
+      "AutoCAD Electrical proficiency"
+    ]
+  },
+  {
+    "sno": 4,
+    "title": "Contracts Manager",
+    "department": "Legal & Contracts",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "7-10 years",
+    "qualification": "LLB + MBA",
+    "description": "Manage contracts, tenders, and legal compliance for government projects",
+    "responsibilities": [
+      "Draft and review government contracts",
+      "Handle tender documentation and bids",
+      "Ensure legal compliance across projects",
+      "Manage contract negotiations and disputes"
+    ],
+    "requirements": [
+      "7-10 years of contracts management experience",
+      "Experience with government tenders (GeM, etc.)",
+      "Strong knowledge of contract law",
+      "Excellent negotiation skills"
+    ]
+  },
+  {
+    "sno": 5,
+    "title": "Safety Officer",
+    "department": "Safety & Compliance",
+    "location": "WEST BENGAL",
+    "type": "Full-time",
+    "experience": "3-5 years",
+    "qualification": "Diploma/B.Tech + Industrial Safety Certification",
+    "description": "Ensure workplace safety and compliance at construction sites",
+    "responsibilities": [
+      "Conduct safety audits and inspections",
+      "Implement safety protocols and training",
+      "Maintain safety documentation",
+      "Investigate incidents and recommend corrective actions"
+    ],
+    "requirements": [
+      "3-5 years of safety management experience",
+      "Certified safety professional",
+      "Knowledge of safety regulations",
+      "First aid training preferred"
+    ]
+  },
+  {
+    "sno": 6,
+    "title": "Quantity Surveyor",
+    "department": "Estimation & Billing",
+    "location": "UTTAR PRADESH",
+    "type": "Full-time",
+    "experience": "4-7 years",
+    "qualification": "B.Tech/BE in Civil Engineering",
+    "description": "Handle cost estimation, billing, and quantity takeoffs for government projects",
+    "responsibilities": [
+      "Prepare cost estimates and budgets",
+      "Handle client billing and vendor payments",
+      "Conduct quantity takeoffs",
+      "Track project costs and variations"
+    ],
+    "requirements": [
+      "4-7 years of quantity surveying experience",
+      "Experience with government projects preferred",
+      "Proficiency in estimation software",
+      "Strong analytical skills"
+    ]
+  },
+  {
+    "sno": 7,
+    "title": "Architect",
+    "department": "Architecture",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "5-8 years",
+    "qualification": "B.Arch",
+    "description": "Design and plan government buildings and facilities",
+    "responsibilities": [
+      "Create architectural designs and drawings",
+      "Coordinate with engineering teams",
+      "Ensure designs meet government standards",
+      "Obtain necessary approvals from authorities"
+    ],
+    "requirements": [
+      "5-8 years of architectural experience",
+      "Registered with Council of Architecture",
+      "Proficiency in AutoCAD, Revit, SketchUp",
+      "Experience with government projects preferred"
+    ]
+  },
+  {
+    "sno": 8,
+    "title": "HVAC Engineer",
+    "department": "Mechanical Engineering",
+    "location": "MAHARASHTRA",
+    "type": "Full-time",
+    "experience": "4-6 years",
+    "qualification": "B.Tech/BE in Mechanical Engineering",
+    "description": "Design and oversee HVAC systems for government buildings",
+    "responsibilities": [
+      "Design HVAC systems for buildings",
+      "Supervise installation and commissioning",
+      "Ensure energy efficiency and compliance",
+      "Troubleshoot HVAC issues"
+    ],
+    "requirements": [
+      "4-6 years of HVAC design experience",
+      "Knowledge of HVAC codes and standards",
+      "Proficiency in HVAC design software",
+      "Experience with hospital projects preferred"
+    ]
+  },
+  {
+    "sno": 9,
+    "title": "BIM Coordinator",
+    "department": "Digital Construction",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "3-6 years",
+    "qualification": "B.Arch/B.Tech + BIM Certification",
+    "description": "Implement and manage BIM processes for government projects",
+    "responsibilities": [
+      "Create and manage BIM models",
+      "Coordinate between different disciplines",
+      "Conduct clash detection and resolution",
+      "Train team members on BIM workflows"
+    ],
+    "requirements": [
+      "3-6 years of BIM coordination experience",
+      "Proficiency in Revit, Navisworks",
+      "BIM certification preferred",
+      "Experience with large-scale projects"
+    ]
+  },
+  {
+    "sno": 10,
+    "title": "Procurement Specialist",
+    "department": "Procurement",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "5-8 years",
+    "qualification": "MBA/Diploma in Materials Management",
+    "description": "Manage procurement of materials and services for government projects",
+    "responsibilities": [
+      "Source and evaluate vendors",
+      "Handle GeM portal procurement",
+      "Negotiate contracts and pricing",
+      "Manage inventory and supply chain"
+    ],
+    "requirements": [
+      "5-8 years of procurement experience",
+      "Experience with GeM portal",
+      "Knowledge of government procurement policies",
+      "Strong negotiation skills"
+    ]
+  },
+  {
+    "sno": 11,
+    "title": "Quality Control Engineer",
+    "department": "Quality Assurance",
+    "location": "ODISHA",
+    "type": "Full-time",
+    "experience": "4-7 years",
+    "qualification": "B.Tech/BE in Civil/Mechanical Engineering",
+    "description": "Ensure quality standards are met across all project phases",
+    "responsibilities": [
+      "Implement quality control procedures",
+      "Conduct inspections and tests",
+      "Document quality metrics and reports",
+      "Coordinate with project teams on quality issues"
+    ],
+    "requirements": [
+      "4-7 years of quality control experience",
+      "Knowledge of ISO standards",
+      "Certified quality auditor preferred",
+      "Experience with government projects"
+    ]
+  },
+  {
+    "sno": 12,
+    "title": "Environmental Engineer",
+    "department": "Environment & Sustainability",
+    "location": "MAHARASHTRA",
+    "type": "Full-time",
+    "experience": "3-6 years",
+    "qualification": "B.Tech/BE in Environmental Engineering",
+    "description": "Ensure environmental compliance and sustainability in projects",
+    "responsibilities": [
+      "Conduct environmental impact assessments",
+      "Ensure compliance with environmental regulations",
+      "Implement sustainable practices",
+      "Obtain environmental clearances"
+    ],
+    "requirements": [
+      "3-6 years of environmental engineering experience",
+      "Knowledge of environmental laws",
+      "Experience with government clearances",
+      "Green building certification preferred"
+    ]
+  },
+  {
+    "sno": 13,
+    "title": "IT Infrastructure Engineer",
+    "department": "Information Technology",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "4-7 years",
+    "qualification": "B.Tech/BE in Computer Science/IT",
+    "description": "Manage IT infrastructure for smart government buildings",
+    "responsibilities": [
+      "Design and implement network infrastructure",
+      "Manage security systems and CCTV",
+      "Handle IT equipment procurement",
+      "Provide technical support"
+    ],
+    "requirements": [
+      "4-7 years of IT infrastructure experience",
+      "Knowledge of networking and security systems",
+      "Experience with smart building technologies",
+      "Relevant certifications preferred"
+    ]
+  },
+  {
+    "sno": 14,
+    "title": "Land Surveyor",
+    "department": "Survey",
+    "location": "KARNATAKA",
+    "type": "Full-time",
+    "experience": "3-6 years",
+    "qualification": "Diploma in Surveying",
+    "description": "Conduct land surveys for government project sites",
+    "responsibilities": [
+      "Perform topographic and boundary surveys",
+      "Operate surveying equipment (Total Station, GPS)",
+      "Prepare survey reports and drawings",
+      "Coordinate with design teams"
+    ],
+    "requirements": [
+      "3-6 years of surveying experience",
+      "Proficiency with surveying equipment",
+      "Knowledge of AutoCAD Civil 3D",
+      "Survey certification preferred"
+    ]
+  },
+  {
+    "sno": 15,
+    "title": "HR Manager",
+    "department": "Human Resources",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "7-10 years",
+    "qualification": "MBA in HR",
+    "description": "Manage HR operations for a growing construction company",
+    "responsibilities": [
+      "Handle recruitment and onboarding",
+      "Manage employee relations",
+      "Implement HR policies and procedures",
+      "Coordinate training and development"
+    ],
+    "requirements": [
+      "7-10 years of HR experience",
+      "Experience in construction industry preferred",
+      "Knowledge of labor laws",
+      "Strong interpersonal skills"
+    ]
+  },
+  {
+    "sno": 16,
+    "title": "Finance Manager",
+    "department": "Finance & Accounts",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "8-12 years",
+    "qualification": "CA/ICWA/MBA Finance",
+    "description": "Oversee financial operations for government projects",
+    "responsibilities": [
+      "Manage project budgets and accounting",
+      "Handle taxation and compliance",
+      "Prepare financial reports",
+      "Coordinate with auditors"
+    ],
+    "requirements": [
+      "8-12 years of finance experience",
+      "CA qualification preferred",
+      "Experience with government accounting",
+      "Knowledge of GST and TDS"
+    ]
+  },
+  {
+    "sno": 17,
+    "title": "Business Development Manager",
+    "department": "Business Development",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "6-10 years",
+    "qualification": "MBA",
+    "description": "Identify and pursue new business opportunities in government sector",
+    "responsibilities": [
+      "Identify tender opportunities",
+      "Prepare and submit bids",
+      "Build relationships with government agencies",
+      "Track competitor activities"
+    ],
+    "requirements": [
+      "6-10 years of business development experience",
+      "Experience with government tenders",
+      "Strong networking skills",
+      "Knowledge of GeM portal"
+    ]
+  },
+  {
+    "sno": 18,
+    "title": "Junior Engineer - Civil",
+    "department": "Civil Engineering",
+    "location": "ASSAM",
+    "type": "Full-time",
+    "experience": "1-3 years",
+    "qualification": "Diploma/B.Tech in Civil Engineering",
+    "description": "Assist in on-site construction activities",
+    "responsibilities": [
+      "Assist senior engineers on site",
+      "Maintain daily progress reports",
+      "Coordinate with contractors",
+      "Conduct basic quality checks"
+    ],
+    "requirements": [
+      "1-3 years of experience",
+      "Knowledge of basic construction practices",
+      "AutoCAD knowledge preferred",
+      "Willingness to relocate"
+    ]
+  },
+  {
+    "sno": 19,
+    "title": "Store Keeper",
+    "department": "Materials Management",
+    "location": "WEST BENGAL",
+    "type": "Full-time",
+    "experience": "2-4 years",
+    "qualification": "12th/Diploma",
+    "description": "Manage material storage and inventory at site",
+    "responsibilities": [
+      "Receive and issue materials",
+      "Maintain inventory records",
+      "Conduct stock audits",
+      "Coordinate with procurement team"
+    ],
+    "requirements": [
+      "2-4 years of storekeeping experience",
+      "Knowledge of inventory software",
+      "Basic computer skills",
+      "Physical fitness for site work"
+    ]
+  },
+  {
+    "sno": 20,
+    "title": "Document Controller",
+    "department": "Administration",
+    "location": "DELHI",
+    "type": "Full-time",
+    "experience": "2-5 years",
+    "qualification": "Graduate",
+    "description": "Manage project documentation and records",
+    "responsibilities": [
+      "Maintain project files and documents",
+      "Handle correspondence and tracking",
+      "Ensure document version control",
+      "Assist with audit preparations"
+    ],
+    "requirements": [
+      "2-5 years of document control experience",
+      "Proficiency in MS Office",
+      "Knowledge of document management systems",
+      "Attention to detail"
+    ]
+  }
 ]
 }

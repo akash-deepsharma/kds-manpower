@@ -9,8 +9,8 @@ const HeroBanner = () => {
   // Array of slides with image and corresponding content
   const slides = [
     {
-      image: '/hero-bg.png',
-      profileImage: '/Prestigious-Manpower.png', 
+      image: '/industry.png',
+      profileImage: '/industry-small1.png', 
       title: 'Industrial',
       description: 'Skilled industrial workers for manufacturing, factories, and production units with technical expertise.',
       features: [
@@ -21,8 +21,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/illustration-construction-site.jpg',
-      profileImage: '/construction.avif',
+      image: '/construction.png',
+      profileImage: '/construction-small1.png',
       title: 'Construction',
       description: 'Experienced construction workers including masons, carpenters, electricians, and site supervisors.',
       features: [
@@ -33,8 +33,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/frontline1.png',
-      profileImage: '/secuirty.avif',
+      image: '/security.png',
+      profileImage: '/security-small1.png',
       title: 'Security',
       description: 'Trained security personnel for residential, commercial, and industrial premises with PSARA certification.',
       features: [
@@ -45,8 +45,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/doctor-checking.jpg',
-      profileImage: '/medical.avif',
+      image: '/hostpital.png',
+      profileImage: '/hostpital-small1.png',
       title: 'Hospitality',
       description: 'Professional hospitality staff for hotels, restaurants, and events with grooming and service training.',
       features: [
@@ -57,8 +57,8 @@ const HeroBanner = () => {
       ]
     },
     {
-      image: '/group-analysts.avif',
-      profileImage: '/employees.avif',
+      image: '/it-services.png',
+      profileImage: '/it-services-small1.png',
       title: 'IT & Office',
       description: 'Skilled IT professionals and office staff for administrative, technical, and support roles.',
       features: [
@@ -162,18 +162,15 @@ useEffect(() => {
         {String(currentIndex + 1).padStart(2, '0')} / {String(slides.length).padStart(2, '0')}
       </div>
 
-      <div className="container mx-auto px-6 max-w-7xl relative z-10 pt-5 mt-5 pb-4">
+      <div className="container mx-auto px-6 max-w-7xl relative z-10 pt-3 pt-xl-5 mt-xl-5 mt-3 pb-4">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
           {/* Left — Main Content with Profile Image */}
           <div className="lg:col-span-7 space-y-7 z-10">
             
             {/* Profile Image - Dynamic Circle */}
-            <div className="flex  lg:justify-start mb-4 transition-all duration-500">
-              <div className="absolute top-0 left-0 rounded-full overflow-hidden border-4 border-[#1565c0]/30 shadow-2xl shadow-[#1565c0]/20 group"  style={{
-              width: '350px',
-              height: '350px',
-              transform: 'translate(-25%,-30%)',
+            <div className="flex  lg:justify-start mb-4 transition-all duration-500  d-none d-xl-block">
+              <div className="absolute top-0 left-0 rounded-full overflow-hidden border-4 border-[#1565c0]/30 shadow-2xl shadow-[#1565c0]/20 group light_img"  style={{
               borderColor: colorPalette[colorIndex].value,
               boxShadow: `0 25px 50px -12px ${colorPalette[colorIndex].value}80`,
               zIndex: '-1',
@@ -185,11 +182,11 @@ useEffect(() => {
                   alt={slides[currentIndex].title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  sizes="(max-width: 768px) 200px, 300px"
+                  // sizes="(max-width: 1768px) 200px, 300px"
                   priority
                 />
                 {/* Glow effect on hover */}
-                <div className="absolute inset-0 rounded-full ring-2 ring-[#1565c0]/50 ring-offset-2 ring-offset-[#06111e] group-hover:ring-[#90caf9] transition-all duration-500" />
+                <div className="absolute inset-0 rounded-full ring-2 ring-[#1565c0]/50 ring-offset-2 ring-offset-[#06111e] group-hover:ring-[#90caf9] transition-all duration-500" style={{content:'',left:'0',bottom:'0',width:'100%',height:'100%',background:'linear-gradient(to top, #000428f5, #004e9200) !important'}}/>
               </div>
             </div>
 
@@ -246,7 +243,7 @@ useEffect(() => {
           </div>
 
           {/* Right — Contact card - static */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 mb-5">
             <div className="bg-white/5 border border-white/10  rounded-3xl overflow-hidden shadow-2xl shadow-[#1565c0]/10" style={{ backdropFilter: 'blur(2px) ' }}>
               {/* Top accent */}
               <div className="h-1 w-full bg-gradient-to-r from-[#0d47a1] via-[#1565c0] to-[#1976d2]" />
@@ -257,20 +254,20 @@ useEffect(() => {
                 </h3>
                 <p className="text-gray-400 text-sm mb-6">Tell us your manpower requirements and we'll respond within 2 hours.</p>
 
-                <div className="space-y-3">
+                <div className="space-y-3 ">
                   {[
                     { icon: Phone, label: "Call Us Directly", value: "+91 9899184918", href: "tel:+919899184918" },
                     { icon: Mail, label: "Email Us", value: "info@kdsinternational.org", href: "mailto:info@kdsinternational.org" },
                     { icon: MapPin, label: "Our Office", value: "Laxmi Nagar, Delhi - 110092", href: "#" },
                   ].map((item, i) => (
                     <a key={i} href={item.href}
-                      className="flex items-center gap-4 p-4 rounded-2xl mb-3 bg-white/5 hover:bg-[#1565c0]/20 border border-white/5 hover:border-[#1565c0]/30 transition-all cursor-pointer group">
+                      className="flex items-center gap-4 p-xl-4 p-lg-3 p-3 rounded-2xl mb-3 bg-white/5 hover:bg-[#1565c0]/20 border border-white/5 hover:border-[#1565c0]/30 transition-all cursor-pointer group">
                       <div className="w-10 h-10 rounded-xl bg-[#1565c0]/20 flex items-center justify-center shrink-0 group-hover:bg-[#1565c0] transition-all">
                         <item.icon size={17} className="text-[#90caf9] group-hover:text-white transition-colors" />
                       </div>
                       <div>
                         <p className="text-[10px] text-white uppercase tracking-widest font-bold mb-1">{item.label}</p>
-                        <p className="text-white text-sm font-semibold">{item.value}</p>
+                        <p className="text-white text-sm font-semibold mb-0">{item.value}</p>
                       </div>
                     </a>
                   ))}

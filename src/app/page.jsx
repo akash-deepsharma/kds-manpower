@@ -182,7 +182,7 @@ export default async function HomePage() {
           ABOUT SECTION
       ══════════════════════════════════════════════ */}
       <section className="bg-gray-50 dark:bg-[#0a1628] py-5 md:py-5 transition-colors duration-500">
-        <div className="container mx-auto px-5 max-w-7xl">
+        <div className="container mx-auto  max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
             {/* Left: Text */}

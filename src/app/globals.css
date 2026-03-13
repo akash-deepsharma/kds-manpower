@@ -340,3 +340,37 @@ button {
 .hero-bg {
   background: linear-gradient(135deg, #06111e 0%, #0a1628 50%, #0d1f3c 100%);
 }
+/* styles/globals.css or your main CSS file */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+.light_img{
+      width: 280px;
+              height: 280px;
+              transform: translate(-25%,-36%);
+    } 
+@media screen and (max-width:1746px) {
+    .light_img{
+      width: 240px;
+      height: 240px;
+      transform: translate(-20%,-26%);
+    } 
+}
+@media screen and (max-width:1600px) {
+    .light_img{
+      width: 200px;
+      height: 200px;
+      transform: translate(-20%,-15%);
+    } 
+}

@@ -393,11 +393,11 @@ export default async function IndustryDetailPage({ params }) {
               {/* Main Image */}
               <div className="relative h-[600px] rounded-[2rem] overflow-hidden">
                 {industry.img ? (
-                  <img
+                  <Image
                     src={industry.img}
-                    alt={industry.title}
-                    fill 
-                    className="object-cover h-100"
+                    alt={industry.title || "Industry image"}
+                    fill
+                    className="object-cover"
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br from-[#1565c0] to-[#64b5f6] flex items-center justify-center">

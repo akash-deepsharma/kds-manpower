@@ -91,6 +91,10 @@ const Testimonial = ({ data }) => {
                         spaceBetween={24}
                         slidesPerView={1}
                         breakpoints={{
+                            300: {
+                                slidesPerView: 1,
+                                spaceBetween: 6,
+                            },
                             640: {
                                 slidesPerView: 2,
                                 spaceBetween: 20,
