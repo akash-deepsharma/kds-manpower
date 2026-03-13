@@ -13,12 +13,14 @@ import {
   Phone,
   Globe,
   MessageSquare,
+  MapPin,
 } from "lucide-react";
 import SectionTitle from "@/components/ui/SectionTitle";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
 import ServiceCard from "@/components/ui/ServiceCard";
 import SubServiceCard from "@/components/ui/SubServiceCard";
+import ServiceDetailLocationTabs from "@/components/ui/ServiceDetailLocationTabs";
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -460,24 +462,37 @@ export default async function ServiceDetailPage({ params }) {
               </aside>
             </div>
 
-               {/* ─── SERVICES GRID ────────────────────────────────────────── */}
-                      <section className="section-padding relative bg-white dark:bg-[#0d1117] transition-colors duration-500">
-                        <div className="container mx-auto px-6 max-w-7xl">
-                          <div className="text-center mb-4">
-                            <SectionTitle
-                              label="Our Services"
-                              title="End-to-End Industrial Excellence"
-                              subtitle="We provide a comprehensive ecosystem of services designed to optimize speed, quality, and cost across your global operations."
-                              align="center"
-                            />
-                          </div>
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                            {data.subServices.map((service) => (
-                              <SubServiceCard key={service.id} service={service} />
-                            ))}
-                          </div>
+               {/* ─── LOCATIONS WE SERVE ───────────────────────────────────────── */}
+                {service.locations && service.locations.length > 0 && (
+                  <section className="bg-gray-50 dark:bg-[#161b22]/30 relative overflow-hidden transition-colors duration-500 p-4 rounded">
+                    <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#1565c0]/5 to-transparent pointer-events-none" />
+                    <div className="container mx-auto px-6 max-w-7xl relative z-10">
+                      <div className="mb-3 animate-fade-in-up">
+                        <div className="inline-flex items-center gap-2 mb-4">
+                          <MapPin size={14} className="text-[#1565c0]" />
+                          <span className="text-[10px] font-black uppercase tracking-[0.25em] text-[#1565c0]">
+                            Service Locations
+                          </span>
                         </div>
-                      </section>
+                        <h2
+                          className="text-3xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tighter mb-4 transition-colors duration-500"
+                          style={{ fontFamily: "Outfit, sans-serif" }}
+                        >
+                          Where We Serve —{" "}
+                          <span className="text-[#1565c0]">
+                            {service.locations.map((l) => l.stateLabel).join(", ")}
+                          </span>
+                        </h2>
+                        <p className="text-gray-600 dark:text-[#8b949e] text-lg max-w-2xl leading-relaxed transition-colors duration-500">
+                          KDS International provides <strong className="text-gray-900 dark:text-white">{service.title}</strong> across
+                          multiple states and cities. Select your state and city to get
+                          location-specific details.
+                        </p>
+                      </div>
+                      <ServiceDetailLocationTabs service={service} />
+                    </div>
+                  </section>
+                )}
 
 
           </div>

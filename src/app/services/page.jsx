@@ -3,6 +3,7 @@ import ServiceCard from "@/components/ui/ServiceCard";
 import SectionTitle from "@/components/ui/SectionTitle";
 import Button from "@/components/ui/Button";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import ServiceLocationTabs from "@/components/ui/ServiceLocationTabs";
 
 export const metadata = {
   title: "Services",
@@ -97,6 +98,23 @@ export default async function ServicesPage() {
               <ServiceCard key={service.id} service={service} />
             ))}
           </div>
+        </div>
+      </section>
+
+
+       {/* ─── LOCATIONS WE SERVE ───────────────────────────────────── */}
+      <section className="section-padding bg-gray-50 dark:bg-[#161b22]/30 relative overflow-hidden transition-colors duration-500">
+        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-[#1565c0]/5 to-transparent pointer-events-none" />
+        <div className="container mx-auto px-6 max-w-7xl relative z-10">
+          <div className="mb-3 animate-fade-in-up">
+            <SectionTitle
+              label="Service Locations"
+              title="States & Cities We Serve"
+              subtitle="KDS International operates across Delhi NCR, Uttar Pradesh, and Haryana. Select a state to explore city-wise service availability."
+              align="center"
+            />
+          </div>
+          <ServiceLocationTabs services={data.services} />
         </div>
       </section>
 

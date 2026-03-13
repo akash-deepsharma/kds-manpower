@@ -22,6 +22,32 @@ export default async function sitemap() {
         priority: 0.7,
     }));
 
+
+
+       // Dynamic service + location routes
+    const serviceLocationRoutes = [];
+    for (const service of data.services) {
+        if (!service.locations) continue;
+        for (const loc of service.locations) {
+            for (const cityObj of loc.cities) {
+                serviceLocationRoutes.push({
+                    url: `${baseUrl}/services/${service.slug}/${loc.state}/${cityObj.slug}`,
+                    lastModified: new Date(),
+                    changeFrequency: "monthly",
+                    priority: 0.65,
+                });
+            }
+        }
+    }
+    // Dynamic blog routes
+    const blogRoutes = data.blogPosts.map((post) => ({
+        url: `${baseUrl}/blog/${post.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.6,
+    }));
+
     // Combine
-    return [...routes, ...serviceRoutes];
+    // return [...routes, ...serviceRoutes];
+    return [...routes, ...serviceRoutes, ...serviceLocationRoutes, ...blogRoutes];
 }

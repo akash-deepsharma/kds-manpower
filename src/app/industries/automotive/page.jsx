@@ -617,7 +617,7 @@ export default async function IndustryDetailPage({ params }) {
                       </p>
 
                       {/* Optional icon or indicator */}
-                      <div className="mt-4 flex items-center gap-2 text-[#1565c0]">
+                      <div className="mt-4 flex items-center gap-2 text-[#1565c0] p">
                         <div className="w-2 h-2 rounded-full bg-[#1565c0]" />
                         <span className="text-xs font-bold uppercase tracking-wider">Industry Milestone</span>
                       </div>

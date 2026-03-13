@@ -86,6 +86,35 @@
           "type": "paragraph",
           "text": "Our fitters, electricians, and machine operators are trained to handle modern industrial equipment with care and efficiency, reducing downtime and maintaining high safety standards across your facility."
         }
+      ],"locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
+          ]
+        }
       ]
     },
     {
@@ -129,6 +158,36 @@
         {
           "type": "paragraph",
           "text": "We handle the entire administrative burden—from recruitment and onboarding to monthly payroll and compliance—allowing your core team to focus on production and growth."
+        }
+      ],
+       "locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
+          ]
         }
       ]
     },
@@ -174,6 +233,36 @@
           "type": "paragraph",
           "text": "KDS International takes full responsibility for the workforce during the contract period, ensuring performance standards are met and all statutory requirements are fulfilled without any administrative overhead for you."
         }
+      ],
+       "locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
+          ]
+        }
       ]
     },
     {
@@ -212,6 +301,36 @@
             "Proficient in basic assembly and packaging line operation.",
             "Trained for quality checking and production support.",
             "Strong understanding of workplace safety and coordination."
+          ]
+        }
+      ],
+       "locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
           ]
         }
       ]
@@ -254,6 +373,36 @@
             "24/7 workforce availability for multi-shift operations."
           ]
         }
+      ],
+       "locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
+          ]
+        }
       ]
     },
     {
@@ -292,6 +441,36 @@
             "Scalable workforce for project-based demands.",
             "Zero recruitment risk—we manage all onboarding processes.",
             "Experienced on-site supervision for large labor teams."
+          ]
+        }
+      ],
+       "locations": [
+        {
+          "state": "delhi",
+          "stateLabel": "Delhi",
+          "cities": [
+            { "slug": "new-delhi", "label": "New Delhi" },
+            { "slug": "laxmi-nagar", "label": "Laxmi Nagar" },
+            { "slug": "rohini", "label": "Rohini" },
+            { "slug": "dwarka", "label": "Dwarka" },
+            { "slug": "janakpuri", "label": "Janakpuri" }
+          ]
+        },
+        {
+          "state": "uttar-pradesh",
+          "stateLabel": "Uttar Pradesh",
+          "cities": [
+            { "slug": "noida", "label": "Noida" },
+            { "slug": "greater-noida", "label": "Greater Noida" },
+            { "slug": "ghaziabad", "label": "Ghaziabad" }
+          ]
+        },
+        {
+          "state": "haryana",
+          "stateLabel": "Haryana",
+          "cities": [
+            { "slug": "gurugram", "label": "Gurugram" },
+            { "slug": "faridabad", "label": "Faridabad" }
           ]
         }
       ]

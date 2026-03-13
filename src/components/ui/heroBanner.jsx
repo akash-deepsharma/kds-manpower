@@ -182,10 +182,9 @@ useEffect(() => {
                   alt={slides[currentIndex].title}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  // sizes="(max-width: 1768px) 200px, 300px"
+                 
                   priority
                 />
-                {/* Glow effect on hover */}
                 <div className="absolute inset-0 rounded-full ring-2 ring-[#1565c0]/50 ring-offset-2 ring-offset-[#06111e] group-hover:ring-[#90caf9] transition-all duration-500" style={{content:'',left:'0',bottom:'0',width:'100%',height:'100%',background:'linear-gradient(to top, #000428f5, #004e9200) !important'}}/>
               </div>
             </div>
